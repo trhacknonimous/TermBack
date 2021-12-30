@@ -41,44 +41,29 @@ animation-iteration-count: infinite;
 }
 </style></center>
 <img src="https://i.gifer.com/KnKK.gif"></img><br>
-# Rewind - A termux backup/restore tool
+<p># Rewind - A termux backup/restore tool</p>
 
+<p> Simple bash script to backup and restore home directory and packages installed manually. Works across devices.</p>
 
-Simple bash script to backup and
-restore home directory and packages installed manually.
-Works across devices.
+<p>![rewind](<img src="rewind.png"></img>)</p>
 
-![rewind](<img src="rewind.png"></img>)
+<p> ### created by [trhacknonimous](https://github.com/trhacknonimous)</p>
 
+<p>## Installation</p>
 
-### created by [trhacknonimous](https://github.com/trhacknonimous)
+<p>Just copy paste this in your termux.</p>
 
-## Installation
+<p> &#96;&#96;&#96;bash wget https://raw.githubusercontent.com/trhacknonimous/TermBack/master/rewind &amp;&amp; chmod u+x rewind &amp;&amp; mv rewind $PREFIX/bin/ &#96;&#96;&#96;</p>
 
-Just copy paste this in your termux.
+<p>or</p>
 
+<p>&#96;&#96;&#96;bash curl -O https://raw.githubusercontent.com/trhacknonimous/TermBack/master/rewind &amp;&amp; chmod u+x rewind &amp;&amp; mv rewind $PREFIX/bin/ &#96;&#96;&#96;</p>
 
-```bash
-wget https://raw.githubusercontent.com/trhacknonimous/TermBack/master/rewind && chmod u+x rewind && mv rewind $PREFIX/bin/
-```
+<p>## Usage</p>
 
-or
+<p>Usage : **rewind** [-hv] [-b|-r [home|pkgs]]</p>
 
-```bash
-curl -O https://raw.githubusercontent.com/trhacknonimous/TermBack/master/rewind && chmod u+x rewind && mv rewind $PREFIX/bin/
-```
-
-## Usage
-
-Usage : **rewind**  [-hv] [-b|-r [home|pkgs]]
-
-option           |   Description
-:---------------:|:---------------------------:
- -h              |    print this usage
- -v              |    print version
- -b [home\|pkgs] |    backup home and/or packages
- -r [home\|pkgs] |    restore home and/or packages
-
+<p>option | Description :---------------:|:---------------------------:  -h | print this usage  -v | print version  -b [home\|pkgs] | backup home and/or packages  -r [home\|pkgs] | restore home and/or packages </p>
 <script type='text/javascript'>
 //<![CDATA[
 // Anti Klik Kanan
